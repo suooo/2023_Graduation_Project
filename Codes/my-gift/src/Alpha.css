@@ -1,0 +1,57 @@
+.Alpha {
+  text-align: center;
+  font-size: 3vmin;
+  font-family: iceJaram-Rg;
+}
+
+.Title{
+  font-family: 'Vidaloka', serif;
+  color: #003FC0;
+  font-size: 6.5vmin;
+  margin-top: 7vh;
+}
+
+.SubTitle{
+  color: #003FC0;
+  font-size: 3.5vmin;
+  margin-top: -6vh;
+}
+
+.Manual {
+  width: 60vmin;
+  float: left;
+  margin-left: 15%;
+}
+
+.fileUpload{
+  width: 30vmin;
+  float: right;
+  margin-right: 15%;
+  border: 1px red solid;
+}
+
+.startButton{
+  width: 20vmin; 
+  float: right;
+  margin-right: 15%;
+  border: none;
+  background-color: transparent;
+  font-size: 2.5vmin;
+}
+
+.startButton:hover{
+  cursor:pointer;
+}
+
+.startImg{
+  width:100%;
+}
+
+@font-face {
+  font-family: 'iceJaram-Rg';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/iceJaram-Rg.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
