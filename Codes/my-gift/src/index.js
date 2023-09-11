@@ -2,14 +2,20 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import Alpha from "./Alpha";
-import Beta from "./Beta";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Alpha from "./pages/Alpha";
+import Beta from "./pages/Beta";
+//import Alpha2 from "./pages/Alpha2";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Alpha />
-    <Beta />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Alpha />} />
+        <Route path={"/Beta"} element={<Beta />}></Route>
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

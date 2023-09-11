@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Beta extends Component {
+class Alpha2 extends Component {
   onFileChange(e) {
     const file = e.target.files[0];
     const fileReader = new FileReader();
@@ -17,4 +17,5 @@ class Beta extends Component {
     );
   }
 }
-export default Beta;
+
+export default Alpha2;
