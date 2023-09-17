@@ -3,19 +3,29 @@
     font-size: 3vmin;
   }
   
-  .Title{
+.Title{
     font-family: 'Vidaloka', serif;
     color: #003FC0;
     font-size: 6.5vmin;
     margin-top: 7vh;
   }
   
-  .SubTitle{
+.SubTitle{
     color: #003FC0;
     font-size: 3.5vmin;
     margin-top: -6vh;
     font-family: iceJaram-Rg;
   }
+
+.ResultBox{
+  float: left;
+  margin-left: 15%;
+}
+
+.RecommandBox{
+  float: right;
+  margin-right: 15%;
+}
 
   
 @font-face {
