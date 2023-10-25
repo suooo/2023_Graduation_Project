@@ -1,12 +1,16 @@
 {
   "name": "my-gift",
   "version": "0.1.0",
+  "proxy": "http://192.168.200.161:5000",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "add": "^2.0.6",
+    "axios": "^1.5.1",
     "cross-env": "^7.0.3",
+    "jquery": "^3.7.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.15.0",
