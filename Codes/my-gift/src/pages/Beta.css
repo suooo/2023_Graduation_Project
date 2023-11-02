@@ -17,14 +17,71 @@
     font-family: iceJaram-Rg;
   }
 
+
+/* 취향 분석 결과 */
 .ResultBox{
   float: left;
-  margin-left: 15%;
+  margin-left: 14%;
+  margin-top: 3vh;
+  width: 30vw;
+  height: 70vh;
+  font-size: 3.0vmin;
+  font-family: 'HSBombaram21-Regular';
+  /*border: 3px solid blue;*/
 }
 
+.smallResultBox{
+  border: 2px solid #003FC0;;
+  background-color: white;
+  height: 60vh;
+  overflow: auto;
+  margin: 3%;
+  font-family: iceJaram-Rg;
+}
+
+.ChatBox{
+  font-size: 3.0vmin;
+  margin: 5%;
+  margin-bottom: 5%;
+  padding: 0.3%;
+  background-color: #adcbff94;
+  /*border: 2px solid black;*/
+}
+
+
+/* 추천하는 '영화' */
 .RecommandBox{
   float: right;
-  margin-right: 15%;
+  margin-right: 14%;
+  margin-top: 3vh;
+  width: 30vw;
+  height: 70vh;
+  font-size: 3.0vmin;
+  font-family: 'HSBombaram21-Regular';
+  /*border: 3px solid blue;*/
+}
+
+.smallRecmdBox{
+  border: 2px solid #003FC0;
+  background-color: white;
+  height: 60vh;
+  overflow: auto;
+  margin: 3%;
+  font-family: iceJaram-Rg;
+}
+
+.keywordButton{
+  font-size: 3.0vmin;  
+  width: 20vw;
+  border: none;
+  margin-top: 5%;
+  padding: 2vh;
+  background-color: #adffb894;
+  font-family: iceJaram-Rg;
+}
+
+.keywordButton:hover{
+  cursor:pointer;
 }
 
   
@@ -35,5 +92,13 @@
     font-style: normal;
   }
   
+  @font-face {
+    font-family: 'HSBombaram21-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/HSBombaram21-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Vidaloka&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
   

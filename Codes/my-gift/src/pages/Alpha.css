@@ -1,10 +1,17 @@
+/*html{
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+
 .Alpha {
   text-align: center;
   font-size: 3vmin;
-  font-family: iceJaram-Rg;
 }
 
 .Title{
+  text-align: center;
+  /*margin-left: 15vw;*/
   font-family: 'Vidaloka', serif;
   color: #003FC0;
   font-size: 6.5vmin;
@@ -12,31 +19,53 @@
 }
 
 .SubTitle{
+  text-align: center;
   color: #003FC0;
   font-size: 3.5vmin;
   margin-top: -6vh;
 }
 
+
+/*------매뉴얼------*/
 .Manual {
-  width: 60vmin;
+  width: 25vw;
   float: left;
+  margin-top: 5vh;
   margin-left: 15%;
 }
 
-.fileUpload{
-  width: 30vmin;
-  float: right;
-  margin-right: 15%;
-  border: 1px red solid;
+
+/*------파일 업로드------*/
+.UploadPart{
+  margin-top: 15vh;
 }
 
+.uploadButton{
+  width: 3vw; 
+  border: none;
+  background-color: transparent;
+}
+
+.uploadButton:hover{
+  cursor:pointer;
+}
+
+.fileUploadImg{
+  width:100%;
+  margin-top: 5vh;
+}
+
+
+
+/*------분석 시작 버튼------*/
 .startButton{
-  width: 20vmin; 
+  width: 10vw; 
   float: right;
-  margin-right: 15%;
+  margin-right: 18%;
   border: none;
   background-color: transparent;
   font-size: 2.5vmin;
+  font-family: 'HSBombaram21-Regular';
 }
 
 .startButton:hover{
@@ -44,9 +73,12 @@
 }
 
 .startImg{
-  width:100%;
+  width:80%;
+  margin-bottom: 9%;
 }
 
+
+/*------폰트------*/
 @font-face {
   font-family: 'iceJaram-Rg';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/iceJaram-Rg.woff2') format('woff2');
@@ -54,4 +86,16 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'HSBombaram21-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/HSBombaram21-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Vidaloka&display=swap');
+
+
+/*------아이콘------*/
+@import url('https://cdn-uicons.flaticon.com/uicons-thin-rounded/css/uicons-thin-rounded.css')
