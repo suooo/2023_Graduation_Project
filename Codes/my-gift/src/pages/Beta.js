@@ -47,11 +47,13 @@ function Beta() {
             </div>
           ))}
         </div>
-        <button onClick={storeResult}>분석 결과 저장하기</button>
+        <button className="resultStoreButton" onClick={storeResult}>
+          분석 결과 저장하기
+        </button>
       </div>
 
       <div className="RecommandBox">
-        추천 검색
+        추천 키워드 검색
         <div className="smallRecmdBox">
           {keyword.map((k, index) => (
             <div key={index}>

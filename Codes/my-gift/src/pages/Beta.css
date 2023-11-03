@@ -18,21 +18,22 @@
   }
 
 
-/* 취향 분석 결과 */
+
+/*------취향 분석 결과------*/
 .ResultBox{
   float: left;
-  margin-left: 14%;
+  margin-left: 16%;
   margin-top: 3vh;
   width: 30vw;
   height: 70vh;
   font-size: 3.0vmin;
-  font-family: 'HSBombaram21-Regular';
-  /*border: 3px solid blue;*/
+  font-family: 'JSongMyung-Regular-KO';
+  color: #003FC0;
 }
 
 .smallResultBox{
-  border: 2px solid #003FC0;;
-  background-color: white;
+  border: 1.5px solid #003FC0;;
+  background-color: rgba(255, 255, 255, 0.5);
   height: 60vh;
   overflow: auto;
   margin: 3%;
@@ -44,26 +45,52 @@
   margin: 5%;
   margin-bottom: 5%;
   padding: 0.3%;
-  background-color: #adcbff94;
+  background-color: rgba(255, 255, 255);
+  color: black;
   /*border: 2px solid black;*/
 }
 
+.resultStoreButton{
+  width: 15vw; 
+  height: 4vh;
+  border: none;
+  margin-top: -10vh;
+  background-color: transparent;
+  font-size: 2.2vmin;
+  color: #003FC0;
+  font-family: 'JSongMyung-Regular-KO';
 
-/* 추천하는 '영화' */
+
+  background-image: url("download_blue.png");
+  background-repeat: no-repeat;
+  background-size: 10%;
+  background-position: left ;
+}
+
+.resultStoreButton:hover{
+  cursor: pointer;
+  color: white;
+  background-image: url("download_white.png");
+  background-repeat: no-repeat;
+}
+
+
+
+/*-----추천 검색------*/
 .RecommandBox{
   float: right;
-  margin-right: 14%;
+  margin-right: 16%;
   margin-top: 3vh;
   width: 30vw;
   height: 70vh;
   font-size: 3.0vmin;
-  font-family: 'HSBombaram21-Regular';
-  /*border: 3px solid blue;*/
+  font-family: 'JSongMyung-Regular-KO';
+  color: #003FC0;
 }
 
 .smallRecmdBox{
-  border: 2px solid #003FC0;
-  background-color: white;
+  border: 1.5px solid #003FC0;
+  background-color: rgba(255, 255, 255, 0.5);
   height: 60vh;
   overflow: auto;
   margin: 3%;
@@ -76,7 +103,7 @@
   border: none;
   margin-top: 5%;
   padding: 2vh;
-  background-color: #adffb894;
+  background-color: #ffffff;
   font-family: iceJaram-Rg;
 }
 
@@ -84,7 +111,9 @@
   cursor:pointer;
 }
 
-  
+
+
+/*------폰트------*/
 @font-face {
     font-family: 'iceJaram-Rg';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/iceJaram-Rg.woff2') format('woff2');
@@ -99,6 +128,5 @@
     font-style: normal;
   }
 
-  @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Vidaloka&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
   

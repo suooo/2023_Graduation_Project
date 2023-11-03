@@ -66,7 +66,11 @@ function Alpha() {
     <div className="Alpha">
       <p className="Title">Your Pick</p>
       <p className="SubTitle">개인별 취향 분석 및 추천 시스템</p>
-      <img src="/img/manual2.png" className="Manual" alt="manual" />
+      <img
+        src="/img/manual1.png"
+        className="Manual"
+        alt="카카오톡 대화 내용 내보내기"
+      />
 
       <div className="UploadPart">
         <input type="file" accept=".txt" onChange={uploadedFile} />
@@ -79,9 +83,9 @@ function Alpha() {
           className="uploadButton"
         >
           <img
-            src="/img/file-upload.png"
+            src="/img/file_blue.png"
             className="fileUploadImg"
-            alt="file upload"
+            alt="파일 업로드"
           />
           <br />
         </button>
@@ -91,8 +95,6 @@ function Alpha() {
       <br />
       <br />
       <button onClick={moveBeta} className="startButton">
-        <img src="/img/start.png" className="startImg" alt="취향 분석 시작" />
-        <br />
         취향 분석 시작
       </button>
     </div>
